@@ -9,7 +9,6 @@ public:
         }
         int mn = INT_MAX;
         for(auto i=m.begin();i!=m.end();i++){
-            // cout<<i->first<<" "<<i->second.first<<" "<<i->second.second<<endl;
             if(i->second.second==1){
                 mn = min(mn,i->second.first); 
             }

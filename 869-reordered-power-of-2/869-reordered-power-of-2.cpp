@@ -5,11 +5,9 @@ public:
         for(int i=0;i<10;i++)
             arr[i]=temp[i];
         while(n>0){
-            // cout<<n%10<<" "<<arr[n%10]<<endl;
             arr[n%10]--;
             n/=10;
         }   
-        // cout<<endl;
         for(int i=0;i<10;i++){
             if(arr[i]==0)
                 continue;

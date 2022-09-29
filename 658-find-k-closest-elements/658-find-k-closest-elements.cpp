@@ -1,7 +1,6 @@
 class Solution {
 public:
     vector<int> findClosestElements(vector<int>& arr, int k, int x) {
-		// Method 1: 
         priority_queue<pair<int,int>>pq;
         for(auto e:arr){
             if(k!=0){
